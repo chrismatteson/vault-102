@@ -1,25 +1,3 @@
-name: chapter-6
-class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
-count: false
-
-# Chapter 6      
-## Vault Policies
-
-![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
-
-???
-
-* Chapter 6 introduces Vault Policies
-
----
-layout: true
-
-.footer[
-- Copyright © 2019 HashiCorp
-- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
-]
-
 ---
 name: vault-policies
 # Vault Policies

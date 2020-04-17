@@ -1,25 +1,3 @@
-name: Chapter-3
-class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
-count: false
-
-# Chapter 3      
-## Running a Production Vault Server
-
-![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
-
-???
-
-Chapter 3 focuses on running a production Vault server
-
----
-layout: true
-
-.footer[
-- Copyright © 2019 HashiCorp
-- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
-]
-
 ---
 name: vault-production-serves
 # Running a Production Vault Server

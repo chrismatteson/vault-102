@@ -1,26 +1,3 @@
-name: Chapter-2
-class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
-count: false
-
-
-
-# Chapter 2      
-## Interacting With Vault
-
-![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
-
-???
-Chapter 2 focuses on interacting with Vault
-
----
-layout: true
-
-.footer[
-- Copyright © 2019 HashiCorp
-- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
-]
-
 ---
 name: Interacting-With-Vault
 # Interacting With Vault

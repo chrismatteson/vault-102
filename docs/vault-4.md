@@ -1,26 +1,3 @@
-name: chapter-4
-class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
-count: false
-
-# Chapter 4      
-## Vault Secrets Engines
-
-![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
-
-???
-
-* Chapter 4 introduces Vault secrets engines
-* It focuses on the KV v2 engine.
-
----
-layout: true
-
-.footer[
-- Copyright © 2019 HashiCorp
-- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
-]
-
 ---
 name: vault-secrets-engines-1
 # Vault Secrets Engines

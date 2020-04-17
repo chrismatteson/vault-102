@@ -4,12 +4,12 @@ background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/
 count: false
 
 # Chapter 1  
-## HashiCorp Vault Overview
+## Review Intro to Vault Topics
 
 ![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
 
 ???
-Chapter 1 introduces Vault
+We will quickly review all of the major topics covered in the Intro to Vault course.
 
 ---
 name: hashiCorp-vault-overview

@@ -1,26 +1,3 @@
-name: chapter-5
-class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
-count: false
-
-# Chapter 5      
-## Vault Authentication Methods
-
-![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
-
-???
-
-* Chapter 5 introduces Vault authentication methods
-* It focuses on the Userpass method.
-
----
-layout: true
-
-.footer[
-- Copyright © 2019 HashiCorp
-- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
-]
-
 ---
 name: vault-auth-methods
 # Vault Authentication Methods

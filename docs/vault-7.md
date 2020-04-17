@@ -1,25 +1,3 @@
-name: chapter-7
-class: title, shelf, no-footer, fullbleed
-background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
-count: false
-
-# Chapter 7    
-## Dynamic Database Secrets
-
-![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
-
-???
-
-* Chapter 7 introduces Vault's Database secrets engine which can dynamically generate short-lived credentials for various databases.
-
----
-layout: true
-
-.footer[
-- Copyright © 2019 HashiCorp
-- ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
-]
-
 ---
 name: dynamic-database-secrets
 # Dynamic Secrets: Protecting Databases
