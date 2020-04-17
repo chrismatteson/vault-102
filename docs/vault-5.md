@@ -54,6 +54,12 @@ layout: false
 ???
 
 ---
+name: response-wrapping-lab
+layout:false
+#Response Wrapping Lab
+https://www.katacoda.com/hashicorp/scenarios/vault-cubbyhole
+
+---
 name: rotate-encrytion-key
 layout: false
 # Rotate Encryption Key
