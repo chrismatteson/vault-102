@@ -41,3 +41,7 @@ name: time-to-live
 
 ???
 
+---
+name: token-lab
+# Token Lab
+https://www.katacoda.com/hashicorp/scenarios/vault-tokens

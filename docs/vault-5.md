@@ -25,18 +25,31 @@ name: vault-agent
 ???
 
 ---
+name: vault-agent-lab
+layout: false
+# Vault Agent Lab
+https://www.katacoda.com/hashicorp/scenarios/vault-agent
+
+---
 name: identites
 layout: false
 # Identities
-  * 
+  * Entity's are used for Vault Enterprise Licensing
+  * Should track to value which users get from Vault
 
 ???
+
+---
+name: identites-lab
+layout: false
+# Identities Lab
+https://www.katacoda.com/hashicorp/scenarios/vault-identity
 
 ---
 name: response-wrapping
 layout: false
 # Response Wrapping
-  * 
+  * Used to provide additional layer of security by encrypting data
 
 ???
 
