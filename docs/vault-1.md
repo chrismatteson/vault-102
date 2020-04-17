@@ -191,19 +191,6 @@ name: Vault-CLI
 * It runs on multiple operating systems.
 
 ---
-name: installing-Vault-CLI
-# Installing the Vault CLI
-* Installing Vault on your laptop is easy:
-  * Simply download the zip file.
-  * Unpack the `vault` binary.
-  * Place the binary in your path.
-
-See this [tutorial](https://learn.hashicorp.com/vault/getting-started/install) for more details.
-
-???
-Installing Vault is easy.
-
----
 name: some-cli-commands
 # Some Basic Vault CLI Commands
 * `vault` by itself will give you a list of many Vault CLI commands.
@@ -216,18 +203,6 @@ The `-h`, `-help`, and `--help` flags can be added to get help for any Vault CLI
 
 ???
 Let's discuss some of the basic Vault CLI commands.
-
----
-name: getting-started-with-instruqt
-# Doing Labs with Instruqt
-* [Instruqt](https://instruqt.com/) is the platform used for HashiCorp workshops.
-* Instruqt labs are run in "tracks" that are divided into "challenges".
-* If you've never used Instruqt before, start with this [tutorial](https://play.instruqt.com/instruqt/tracks/getting-started-with-instruqt).
-* Otherwise, you can skip to the next slide.
-
-???
-* We'll be using the Instruqt platform for labs in this workshop.
-* Don't worry if you've never used it before: there is an easy tutorial that you can run through in 5-10 minutes.
 
 ---
 name: vault-server-modes
@@ -265,13 +240,6 @@ name: Vault-UI
 
 * Let's talk about the Vault UI a bit, including ways of signing into it.
 * While you used the token "root" in the last challenge, you'll be running a Vault server in "Prod"  mode in the rest of the track and will have to use the token generated when you initialize that server in the next challenge.
----
-name: signing-into-the-vault-ui
-# Signing into the Vault UI
-.center[![:scale 70%](images/vault_login_page.png)]
-
-???
-* This slide shows a screenshot of the login dialog for the Vault server.
 
 ---
 name: vault-api-1
@@ -830,65 +798,6 @@ name: Vault-Transit-Engine-1
 * Point out that it will use the same MySQL database from chapter 7.
 * Point out that it will get its MySQL credentials from the Database secrets engine students set up in chapter 7.
 * Indicate that we will first run without Vault and then with it.
-
----
-name: web-app-screenshot
-# The Web App
-### Here is a screenshot of the Python web app:
-
-.center[![:scale 70%](images/transit_app.png)]
-
-???
-* Show the screenshot of the web app.
-
----
-name: web-app-views
-# The Web App's Views
-###There are two main sections in the application.
-1. **Records View**
-  * The Records View displays records in plain text, showing what a logged in user would see after any encrypted data is decrypted.
-
-1. **Database View**
-  * The Database View displays the raw records in the database, showing what SQL commands would return:
-
----
-name: records-view
-# The Web App's Records View
-.center[![:scale 90%](images/records_view.png)]
-
-* As we would expect an authorized user is able to see some of the sensitive data because the app has decrypted any encrypted data.
-
-???
-* Show the records view of the web app.
-
----
-name: Vault-Transit-Engine-6
-# The Add User Screen
-* In the lab, you will add new users to the database.
-.center[![:scale 60%](images/add_user.png)]
-
-???
-* Describe the Add User screen that students will use to add new records to the database.
-* Point out again that when Vault is enabled, the records will be encrypted in the database.
-
----
-name: database-record-without-vault
-# Record in Database View Without Vault Enabled
-* After adding a record in the lab, you will be instructed to click on the  **Database View** menu.
-* You should see the exact same data that you entered.
-* This means that Personally Identifiable Data (PII) is being stored in plain text in our database records.
-* How can we improve this? Let's enable Vault's Transit engine and see.
-
----
-name: encrypted-record
-# A Database Record Encrypted by Vault
-#### Here is a record that was encrypted by Vault's Transit engine.
-.center[![:scale 80%](images/database_view_with_encrypted_record.png)]
-* Note that the birth_date and social_security_number are encrypted.
-???
-* Show a record from the database encrypted by Vault's Transit engine.
-* Point out that the birth_date and social_security_number field are encrypted as indicated by their starting with "vault:v1".
-* Point out that the "v1" indicates that the first version of the encryption key was used.
 
 ---
 name: encryption-key-rotation
