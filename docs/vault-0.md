@@ -51,14 +51,12 @@ name: Introductions
 name: Table-of-Contents
 # Table of Contents
 
-1. HashiCorp Vault Overview
-1. Interacting with Vault
-1. Running a Production Server
-1. Vault Secrets Engines
-1. Vault Authentication Methods
-1. Vault Policies
-1. Dynamic Database Secrets
-1. Encryption as a Service
+1. Review Intro to Vault Materials
+1. Additional Depth on Auth Methods and Policies
+1. Additional Depth on Tokens
+1. Additional Depth on Leases
+1. Other Items
+1. Exam Process
 
 ???
 The table of contents for the workshop
