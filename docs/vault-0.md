@@ -3,13 +3,13 @@ class: title, shelf, no-footer, fullbleed
 background-image: url(https://hashicorp.github.io/field-workshops-assets/assets/bkgs/HashiCorp-Title-bkg.jpeg)
 count: false
 
-# Vault OSS Workshop
+# Vault Associate Prepration
 ## Modern Security with Vault for any Cloud
 
 ![:scale 15%](https://hashicorp.github.io/field-workshops-assets/assets/logos/logo_vault.png)
 
 ???
-This workshop introduces students to the open-source version of Vault.
+This workshop extends the Intro to Vault course to cover the remaining topics in the Vault Associate Certification.
 
 It is cloud agnostic.
 
@@ -27,7 +27,7 @@ name: Link-to-Slide-Deck
 <br><br>
 ### Follow along on your own computer at this link:
 
-https://hashicorp.github.io/field-workshops-vault/slides/multi-cloud/vault-oss/index.html
+https://chrismatteson.github.io/vault-102/docs/index.html
 
 ???
 
@@ -63,12 +63,3 @@ name: Table-of-Contents
 ???
 The table of contents for the workshop
 
----
-name: instruqt-tracks
-# Lab Environment Used
-* This workshop uses [Instruqt](https://instruqt.com) for hands-on labs.
-* Instruqt labs are run in "tracks" that are divided into "challenges".
-* This workshop uses the following tracks:
-    1. https://instruqt.com/hashicorp/tracks/vault-basics
-    1. https://instruqt.com/hashicorp/tracks/vault-dynamic-database-credentials
-    1. https://instruqt.com/hashicorp/tracks/vault-encryption-as-a-service

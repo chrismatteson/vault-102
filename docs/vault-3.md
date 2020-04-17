@@ -79,22 +79,6 @@ name: unsealing-vault
 ???
 * Describe Vault's `unseal` command.
 ---
-name: lab-vault-basics-challenge-4
-# 👩‍💻 Lab Challenge 3.1: Run a Vault "Prod" Server
-* In this lab, you'll run your first Vault server in "Prod" mode.
-* You'll learn how to initialize and unseal a Vault server.
-* Instructions:
-  * Click the "Run a Production Server" challenge of the "Vault Basics" track.
-  * Then click the green "Start" button.
-  * Follow the challenge's instructions.
-  * Click the green "Check" button when finished.
-
-???
-* Instruct the students to do the "Run a Production Server" challenge of the "Vault Basics" track.
-* This challenge has them examine a Vault server configuration file, run a Prod server, initialize it, and unseal it.
-* Remind students to save their unseal key and root token.
-
----
 name: vault-status-command
 # Determining the Status of a Vault Server
 * Use the `vault status` command to get the status of a Vault server.
@@ -107,27 +91,3 @@ name: vault-status-command
 ???
 Describe the `vault status` command
 
----
-name: chapter-3-review-questions
-# 📝 Chapter 3 Review
-
-* What is used to configure a "Prod" mode Vault server?
-* What Vault command needs to be run once against a new Vault cluster?
-* What Vault command has to be run each time a Vault server is started?
-
-???
-* Let's review what we learned in this chapter.
-
----
-name: chapter-3-review-answers
-# 📝 Chapter 3 Review
-
-* What is used to configure a "Prod" mode Vault server?
-  * A configuration file
-* What Vault command needs to be run once against a new Vault cluster?
-  * `vault operator init`
-* What Vault command has to be run each time a Vault server is started?
-  * `vault operator unseal`
-
-???
-* Here are the answers to the review questions.

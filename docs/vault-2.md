@@ -83,32 +83,6 @@ name: getting-started-with-instruqt
 ???
 * We'll be using the Instruqt platform for labs in this workshop.
 * Don't worry if you've never used it before: there is an easy tutorial that you can run through in 5-10 minutes.
----
-name: lab-vault-basics-challenge-1
-# 👩‍💻 Lab Challenge 2.1: The Vault CLI
-* In this lab, you'll run some of the Vault CLI commands.
-* You'll do this in the first challenge, "The Vault CLI", of the "Vault Basics" Instruqt track using the URL:
-https://instruqt.com/hashicorp/tracks/vault-basics.
-* You'll continue to work through this Instruqt track in chapters 2-6.
-
-???
-* Now, you can try running some Vault CLI commands yourself in the first challenge of our first Instruqt track in this workshop.
-* We'll be running the Instruqt track "Vault Basics" in the chapters 2-6.
-
----
-name:lab-vault-basics-challenge-1-instructions
-# 👩‍💻 Lab Challenge 2.1: Instructions
-* Start the "Vault Basics" track by clicking the purple "Start" button on the "Vault CLI" challenge of the track.
-* While the challenge is loading, read the displayed text.
-* Click the green "Start" button to start the "Vault CLI" challenge.
-* Follow the instructions on the right side of the challenge.
-* After completing all the steps, click the green "Check" button to see if you did everything right.
-* You can also click the "Check" button for reminders.
-
-???
-* Give the students some instructions for starting their first challenge.
-* This also includes instructions for checking that they did everything right.
-* Students can also click the green "Check" button to get reminderd of what they should do next.
 
 ---
 name: vault-server-modes
@@ -135,21 +109,6 @@ name: vault-dev-server
 * Warn students to never store real secrets on a Dev server.
 
 ---
-name: lab-vault-basics-challenge-2
-# 👩‍💻 Lab Challenge 2.2: Run a Vault "Dev" Server
-* In this lab, you'll run your first Vault server in "Dev" mode.
-* You'll also write your first secret to Vault and use the UI.
-* Instructions:
-  * Click the "Your First Secret" challenge of the "Vault Basics" track.
-  * Then click the green "Start" button.
-  * Follow the challenge's instructions.
-  * Click the green "Check" button when finished.
-
-???
-* Instruct the students to do the "Your First Secret" challenge of the "Vault Basics" track.
-* This challenge has them run a Dev server, write a secret to the KV v2 secrets engine that was automatically enabled, and use the Vault UI.
-
----
 name: Vault-UI
 # The Vault UI
 * In order to use the Vault UI, you must sign in.
@@ -168,17 +127,6 @@ name: signing-into-the-vault-ui
 
 ???
 * This slide shows a screenshot of the login dialog for the Vault server.
-
----
-name: welcome-to-vault
-# The "Welcome to Vault" Tour
-.center[![:scale 60%](images/take_a_tour.png)]
-* When you first login to Vault, you can take a tour.
-
-???
-* Explain the "Welcome to Vault" tour.
-* Explain how to get rid of it.
-* Point out that they can restart the tour with the "Restart guide" menu under their user icon in the upper right corner of the UI.
 
 ---
 name: vault-api-1
@@ -227,43 +175,3 @@ name: vault-api-3
 ???
 * Talk about how most Vault HTTP API calls will require authentication with a Vault token.
 
----
-name: lab-vault-basics-challenge-3
-# 👩‍💻 Lab Challenge 2.3: Use the Vault HTTP API
-* In this lab, you'll use the Vault HTTP API.
-* You'll first check the health of your Vault server.
-* You'll then read your `my-first-secret` secret from Vault.
-* Instructions:
-  * Click the challenge called "The Vault API" in the "Vault Basics" track.
-  * Then click the green "Start" button.
-  * Follow the challenge's instructions.
-  * Click the green "Check" button when finished.
-
-???
-* Instruct the students to do the challenge, "The Vault API", in the "Vault Basics" track.
-
----
-name: chapter-2-review-questions
-# 📝 Chapter 2 Review
-
-* How can you interact with Vault?
-* What options can you use to get help for Vault commands?
-* What are the two Vault server modes?
-
-???
-* Let's review what we learned in this chapter.
-
----
-name: chapter-2-review-answers
-# 📝 Chapter 2 Review
-* How can you interact with Vault?
-  * The Vault CLI
-  * The Vault UI
-  * The Vault API
-* What options can you use to get help for Vault commands?
-  * `-h`, `-help`, and `--help`
-* What are the two Vault server modes?
-  * Dev and Prod
-
-???
-* Here are the answers to the review questions.

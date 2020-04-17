@@ -167,24 +167,3 @@ layout: true
 - ![:scale 100%](https://hashicorp.github.io/field-workshops-assets/assets/logos/HashiCorp_Icon_Black.svg)
 ]
 
----
-name: chapter-1-review-question
-# 📝 Chapter 1 Review
-
-* What is HashiCorp Vault?
-
-???
-* Let's review what we learned in this chapter.
----
-name: chapter-1-review-answer
-# 📝 Chapter 1 Review
-* What is HashiCorp Vault?
-  * Vault is a Secrets Management System.
-  * It is API-driven and cloud agnostic.
-  * It can be used in untrusted networks.
-  * It can authenticate users and applications against many systems.
-  * It supports dynamic generation of short-lived secrets.
-  * It runs in highly available clusters that can be replicated across regions.
-
-???
-* Here are the answers to the review questions.
